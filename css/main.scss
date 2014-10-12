@@ -1,0 +1,142 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+$base-font-size:   16px;
+$base-line-height: 24px;
+$text-color:       #333; 
+$border-color:     #e0e0e0;
+
+$small-font-size: 14px;
+
+$serif:      Georgia, serif;
+$sans-serif: Helmet, FreeSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$monospace:  "Ubuntu Mono", Consolas, monospace;
+
+
+body {
+    color: $text-color;
+    font-family: $serif;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    margin: 0;
+}
+
+a {
+    color: blue;
+}
+
+code, kbd {
+    color: #000;
+    font-size: $small-font-size;
+}
+
+code {
+    background: #eee;
+    font-family: $monospace;
+    padding: 1px;
+}
+
+pre code {
+    display: block;
+    padding: 0 5px;
+}
+
+kbd {
+    border: 1px solid #eee;
+    border-radius: 4px;
+    font-family: $sans-serif;
+    padding: 2px 4px;
+}
+
+.site-header {
+    border-bottom: 1px solid $border-color;
+}
+
+.page-content {
+    margin: 0 auto;
+    max-width: 640px;
+    padding: 0 20px;
+}
+
+.page-title {
+    border-bottom: 1px solid $border-color;
+    font-size: 30px;
+    line-height: 36px;
+    padding-bottom: 12px;   
+}
+
+.page-title, h2, h3, h4 {
+    font-family: $sans-serif;
+    line-height: 1.2;
+}
+
+h2 {
+    border-bottom: 1px solid $border-color;
+    font-size: 20px;
+    margin-bottom: -5px;
+    padding-bottom: 4px;
+
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: normal;
+    margin: 16px 0;
+}
+
+.section-link {
+    font-weight: normal;
+    color: #eee;
+}
+
+.site-footer, .site-navigation {
+    border-top: 1px solid $border-color;
+}
+
+.site-navigation ul {
+    margin: 0 auto;
+    max-width: 640px;
+    padding: 16px 20px;
+}
+
+blockquote {
+    margin: 16px 40px;
+
+    &:before,
+    &:after {
+        color: #d6d6d6;
+        display: block;
+        font-weight: bold;
+        font-size: 60px;
+        height: 30px;
+        line-height: 60px;
+        width: 30px;
+    }
+
+    &:before {
+        content: '“';
+        float: left;
+        text-align: right;
+        margin-left: -40px;
+    }
+
+    &:after {
+        content: '”';
+        float: right;
+        margin-right: -40px;
+        margin-top: -30px - 16px;
+    }
+}
+
+.site-header, .site-footer {
+    font-size: 12px;
+
+    p {
+        margin: 0 auto;
+        max-width: 640px;
+        padding: 12px 20px;
+    }
+}

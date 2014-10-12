@@ -1,0 +1,12 @@
+<footer class="site-footer">
+   <p>Maintained by the Nouse Technical Team.</p>
+</footer>
+
+<script>
+var headings = document.getElementsByTagName('h2');
+for (var i = 0; i < headings.length; i++) {
+	if (headings[i].id) {
+		headings[i].innerHTML += ' <a class="section-link" href="#' + headings[i].id + '">#</a>';
+	}
+}
+</script>

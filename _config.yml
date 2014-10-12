@@ -1,0 +1,9 @@
+# Site settings
+title: The Nouse Technical Guide
+email: tech@nouse.co.uk
+description:  Technical notes for the Univeristy of York's student newspaper.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://docs.nouse.co.uk" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown

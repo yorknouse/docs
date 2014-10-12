@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+    {% include head.html %}
+
+    <body>
+
+        {% include header.html %}
+
+        <div class="page-content">
+            {{ content }}
+        </div>
+        
+        <nav class="site-navigation">
+            <ul>
+                {% for page in site.pages %}{% if page.title %}<li>
+                    <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                </li>{% endif %}{% endfor %}
+            </ul>
+        </nav>
+
+        {% include footer.html %}
+
+  </body>
+
+</html>
