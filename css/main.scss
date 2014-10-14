@@ -51,6 +51,15 @@ kbd {
     padding: 2px 4px;
 }
 
+ul, ol {
+    margin: 1em 10px;
+    padding-left: 20px;
+}
+
+ul li {
+    list-style-type: square;
+}
+
 .site-header {
     border-bottom: 1px solid $border-color;
 }
@@ -59,7 +68,12 @@ kbd {
     margin: 0 auto;
     max-width: 640px;
     padding: 0 20px;
+
+    li {
+        margin: 1em 0;
+    }
 }
+
 
 .page-title {
     border-bottom: 1px solid $border-color;
@@ -92,11 +106,12 @@ h3 {
     color: #eee;
 }
 
-.site-footer, .site-navigation {
+.site-footer,
+.site-navigation {
     border-top: 1px solid $border-color;
 }
 
-.site-navigation ul {
+.site-navigation ol {
     margin: 0 auto;
     max-width: 640px;
     padding: 16px 20px;
