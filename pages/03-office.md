@@ -3,13 +3,13 @@ title: The office
 layout: page
 ---
 
-The office is in Grimston House in Vanbrugh College (vaguely near Nisa).
+The office is in [Grimston House](http://www.openstreetmap.org/way/60004913).
 
 The office network is connected through a D-Link switch located on top of the cabinet to the left of the row of newer iMacs.
 It is connected to the campus network (which also provides the whole office’s internet connection) through the port labelled _V/X/010/5_.
 Apparently using our own switch contravenes all sorts of IT Services policies, though they seem to be prepared to turn a blind eye to that for the time being at least.
 
-There are five Intel Core 2 Duo iMacs: three newer aluminium models and two older plastic models.
+There are five Intel Core 2 Duo iMacs: three newer aluminium models and two older ([late 2006](http://support.apple.com/kb/Sp28)) plastic models.
 There are also two headless servers -- `marconi` (the Dell) and `hunter` (the Viglen) -- and a [Macintosh Classic II](http://support.apple.com/kb/sp204), none of which are currently operational.
 
 There might be a printer/scanner somewhere. Some information about it:
@@ -42,7 +42,10 @@ They can all be accessed using SSH from within the campus network. (Username `no
 
 The iMacs are, apparently, all horribly slow. Some things that would help:
 
-* Installing the maximum amount of RAM. Easy.
+* RAM. The older two support up to 3GB each (1GB + 2GB). The newer three support 4GB (2GB + 2GB).
+  - 1GB DDR2 PC2-5300 Unbuffered NON-ECC 1.8V 128Meg x 64. For the older two computers. I've bought (but not yet installed) two.
+  - [2GB DDR2 PC2-5300 Unbuffered NON-ECC 1.8V 256Meg x 64](http://uk.crucial.com/gbr/en/imac-%28late-2006---2*0ghz-or-2*16ghz%29/CT3331830) (£22.79). For the older two computers. We have room for up to two of these chips.
+  - [2GB DDR2 PC2-6400 Unbuffered NON-ECC 1.8V 256Meg x 64](http://uk.crucial.com/gbr/en/imac-2*66ghz-intel-core-2-duo-%2820-inch%29-mb324ll-a/CT3331877) (£22.79). For the newer three computers. We have room for up to six of these chips.
 * SSDs would be lovely, but apparently require dismantling quite a lot of the iMac.
 * We also should be running a more recent version of OS X. Annoyingly, we're not where the installation media and license keys for Photoshop and InDesign are -- and the oldest two don't support anything newer than Lion -- but an upgrade from Leopard to Snow Leopard (not doing a clean install) would be a start.
 
