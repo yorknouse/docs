@@ -3,11 +3,58 @@ title: Annual events
 layout: page
 ---
 
-(In hopefully chronological order.)
+In hopefully chronological order.
+
+This page attempts to straddle the line between providing information you can figure out for yourself, and not providing enough information. 
+In reading it, it becomes clear that lots of our website and things are horrible messes of bad code, and WordPress is not especially helpful -- sorry about that.
+
+These instructions describe how to keep thing ticking over in a sort of homoeostasis, but we hope you'll want to change things to make them actually better.
 
 ## JCRC Elections
 
+Not very exciting, but one of the first things in every academic year. There will be some coverage of each college's hustings and elections results.
+
+In 2013, we used the misleadingly named `single-freshers-colleges.php` post template (originally made for the preceding summer's freshers' site). All the colleges' [hustings reports](http://www.nouse.co.uk/2013/11/18/college-elections-2013/) were crammed into one post with some fragile HTML, and the same for the [results](http://www.nouse.co.uk/2013/11/23/college-election-results/) -- this was a bit of a nightmare.
+
+Next year, we _could_ simply squeeze Constantine College into that template, but it would be better to do something else.
+
 ## YUSU Elections
+
+These happen every February. [Our websites for this](http://www.nouse.co.uk/elections/) are quite good.
+Archived versions from 2009 onwards are all accessible via the drop-down menu, and the 2013 and 2014 sites are "live", running the current version of the source code.
+
+There is a "Candidate" custom post type, which should be used for the elections candidates' "profiles".
+Each should be placed in the special category for the position they're standing for.
+Editors can do this all themselves.
+
+Live blogs, news articles and things should be put in the YUSU Elections category.
+
+Relevant files:
+
+`/nouse/wp-content/themes/skeleton/category-elections.php`
+: You'll need to update the `$election_year` stuff at the top. Visible at [/elections/](http://www.nouse.co.uk/elections/)
+
+`/nouse/wp-content/themes/skeleton/archive-candidate.php`
+: There's an identical `$election_year` bit to update identically. Oh yes, we espouse the "write everything twice" or "we enjoy typing" principle of software development! (Please improve this situation). Visible at [/elections/candidates/](http://www.nouse.co.uk/elections/candidates/)
+
+`/nouse/wp-content/themes/skeleton/single-candidate.php`
+: Template for displaying a candidate profile
+
+`/nouse/wp-content/themes/skeleton/page-candidate-ratings.php`
+: Note that there is a dummy Page with the slug `elections` which exists purely to give this page a parent. It's impossible to access the parent page, because the category of the same name takes precedence
+
+`/nouse/wp-content/themes/skeleton/sidebar-elections.php`
+: Used on some -- but not all - pages, I think. And doesn't contain the whole sidebar
+
+`/nouse/wp-content/themes/skeleton/functions.php`
+: The `after_navigation()` function, which produces the drop-down list of archived sites from previous years, is defined somewhere here. There's another year value to increment
+
+`/nouse/wp-content/themes/skeleton/functions-taxonomy.php`
+: Sets up the Candidate custom post type, and the Position taxonomy. It's a misleading file name, and the code should probably be moved to a plugin
+
+People can click on thumb icons to express their feelings for candidates.
+This is enabled by the Nouse Comment Voting plugin.
+Don't call the candidate ratings an "exit poll" because you will anger psephologists.
 
 ## College Varsity
 
