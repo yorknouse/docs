@@ -4,27 +4,27 @@ layout: page
 ---
 
 Editors are given Google Apps accounts and WordPress accounts.
-Editors can also create unprivileged WordPress accounts for contributing writers, so that writers' names can appear on their articles on the website.
+Editors can also create unprivileged WordPress accounts for contributing writers, so that their names can appear on their articles on the website.
 
-Technical Directors seem to get the super-fun job of making all the newly elected editors' accounts.
-No one has bothered to particularly automate the process yet ([quot](http://xkcd.com/1205/) [vide](http://xkcd.com/1319/)).
-A spreadsheet is often a useful tool for staying organised.
+The process is a bit tedious.
+We introduce more automation, but [haven't bothered yet](http://xkcd.com/1205/).
+It helps if the workload is split between several people.
 
 ## Google Apps
 
 We are grandfathered into a free Google Apps plan, which we use to provide elected members with prestigious `firstname.lastname@nouse.co.uk` email accounts and the sundry other Google services.
 One day, this will probably end and we'll have to host our own email.
-Meanwhile, we are approaching our limit of 200 users, so we should be gradually deleting the accounts of alumni who no longer use their accounts.
+Meanwhile, we have a limit of 200 users, so should be gradually deleting the accounts of alumni who no longer use their accounts.
 
 ### Adding users
 
 First, a current Super Administrator must give you an account and assign it Super Administrator status.
 
-You will quickly come to hate [the "admin console"](https://admin.google.com/nouse.co.uk/AdminHome). (There are also official apps you can get on your mobile phone.)
+[The "admin console"](https://admin.google.com/nouse.co.uk/AdminHome) is where everything is done. (There are also official apps you can get on your mobile phone.)
 
-You can do some whizzy things with CSV files (editable with all good spreadsheet software, including Excel) to make the process easier.
+You can create users one-by-one ("manually"). Google will generate random temporary password, and help you to send the details to the person's `@york.ac.uk` email address. 
 
-Once a user has been created, you can semi-automatically "email instructions" to their York email address, including their account's automatically-generated password. (They will be required to set themselves a password when they first log in.)
+Alternatively, you can choose the "bulk" option, where you upload a CSV file (a sort of spreadsheet). This isn't quite as brilliant as it sounds: Google is a bit fussy about the formatting, and won't help you with generating passwords or emailing details.
 
 ### Groups
 
@@ -58,7 +58,7 @@ Password
 Role
 : Special trustworthy people can be _Administrators_. New editors are _Editors_.  Other writers, who will not be logging in themselves, are _Contributors_
 
-The positions held by editors (e.g. _Deputy Food & Drink Editor_) go in the Biographical Info field (only available when you edit an existing user, apparently), and will appear automatically on the website. If someone changes position, replace (!) the text with their new position. If someone retires, append the years of their tenure in brackets (e.g. `(2010/11)` or `(2009--11)`).
+The positions held by editors (e.g. _Deputy Food & Drink Editor_) go in the Biographical Info field (only available when you edit an existing user, apparently), and will appear automatically on the website. If someone changes position, replace (!) the text with their new position. If someone retires, append the years of their tenure in brackets (e.g. `(2010/11)` or `(2009–11)`).
 
 ## Who's Nouse
 
@@ -66,6 +66,6 @@ The [Who's Nouse](http://www.nouse.co.uk/about-nouse/whos-nouse/) page needs to 
 
 ## Ideas
 
-Automation, obviously, might be nice. 
+* We could allow logging in to WordPress with people's Google accounts, or vice versa
 
-We could allow logging in to WordPress with people's Google accounts, or vice versa.
+* It is technically possible to have a WordPress user account without a password or unique email address (which would be very useful for the "contributor" accounts). We just need to create a custom form for registering these accounts
