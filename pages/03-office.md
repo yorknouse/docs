@@ -7,7 +7,7 @@ The office is in [Grimston House](http://www.openstreetmap.org/way/60004913).
 
 The office network is connected through a D-Link switch located on top of the cabinet to the left of the row of newer iMacs.
 It is connected to the campus network (which also provides the whole office’s internet connection) through the port labelled _V/X/010/5_.
-Apparently using our own switch contravenes all sorts of IT Services policies, though they seem to be prepared to turn a blind eye to that for the time being at least.
+The switch [possibly contravenes some IT Services policies](http://www.york.ac.uk/it-services/connect/guidelines/).
 
 There are five Intel Core 2 Duo iMacs: three newer aluminium models and two older ([late 2006](http://support.apple.com/kb/Sp28)) plastic models.
 There are also two headless servers -- `marconi` (the Dell) and `hunter` (the Viglen) -- and a [Macintosh Classic II](http://support.apple.com/kb/sp204), none of which are currently operational.
@@ -23,8 +23,7 @@ Those without Microsoft Office have OpenOffice installed which again should be c
 Some updates may need a password to be installed, the password is ████████████████ for all except the editor’s machine `nousemac2` which at the time of writing is █████████.
 This password is also needed to unlock that computer from sleep or the screensaver and it seems should not be given out to anyone.
 
-These are the hostnames and MAC addresses for the 5 iMacs. 
-
+These are the hostnames and MAC addresses for the 5 iMacs:
 
     nousemac1.york.ac.uk | 00:22:41:38:a8:97 
     nousemac2.york.ac.uk | 00:22:41:36:03:21 
@@ -34,9 +33,9 @@ These are the hostnames and MAC addresses for the 5 iMacs.
 
 The numbering starts with the right-hand machine on the window-side of the room and works its way round to the left-hand machine on the opposite side. Each computer is also plugged into the corresponding numbered port on the switch.
 
-All 5 machines are registered in the IT Services landb and should be acquiring IP addresses through DHCP.
+All 5 machines are registered in the IT Services landb and should be acquiring IP addresses through DHCP. There are 
 
-They can all be accessed using SSH from within the campus network. (Username `nouse`; passwords above.) Off campus, you can maybe go via `csteach0.york.ac.uk`.
+They can all be accessed using SSH from within the campus network. (Username `nouse`; passwords [redacted] above.) Off campus, you can maybe go via `csteach0.york.ac.uk`.
 
 ## Ideas
 
