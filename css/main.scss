@@ -7,11 +7,14 @@
 $base-font-size:   16px;
 $base-line-height: 24px;
 $text-color:       #333; 
-$border-color:     #e0e0e0;
+
+$blue: #3b5998;
+$pale-blue: lighten($blue, 50%);
+$dark-blue: darken($blue, 10%);
 
 $small-font-size: 14px;
 
-$serif:      Georgia, serif;
+$serif:      Georgia, "Bitstream Charter", serif;
 $sans-serif: Helmet, FreeSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
 $monospace:  "Ubuntu Mono", Consolas, monospace;
 
@@ -25,16 +28,23 @@ body {
 }
 
 a {
-    color: blue;
+    border-bottom: 1px solid $pale-blue;
+    color: $blue;
+    text-decoration: none;
+
+    &:active,
+    &:focus, {
+        background-color: $pale-blue;
+    }
 }
 
 code, kbd {
-    color: #000;
+    color: black;
     font-size: $small-font-size;
 }
 
 code {
-    background: #eee;
+    background: $pale-blue;
     font-family: $monospace;
     padding: 1px;
 }
@@ -45,7 +55,7 @@ pre code {
 }
 
 kbd {
-    border: 1px solid #eee;
+    border: 1px solid $pale-blue;
     border-radius: 4px;
     font-family: $sans-serif;
     padding: 2px 4px;
@@ -61,7 +71,24 @@ ul li {
 }
 
 .site-header {
-    border-bottom: 1px solid $border-color;
+    background: $blue;
+    border-bottom: 2px solid $dark-blue;
+
+    a {
+        border: 0;
+        color: white;
+    }
+}
+
+.site-header,
+.site-footer {
+    font-size: 14px;
+
+    p {
+        margin: 0 auto;
+        max-width: 640px;
+        padding: 12px 20px;
+    }
 }
 
 .page-content {
@@ -76,10 +103,10 @@ ul li {
 
 
 .page-title {
-    border-bottom: 1px solid $border-color;
+    border-bottom: 2px solid $pale-blue;
     font-size: 30px;
     line-height: 36px;
-    padding-bottom: 12px;   
+    padding-bottom: 4px;   
 }
 
 .page-title, h2, h3, h4 {
@@ -88,7 +115,7 @@ ul li {
 }
 
 h2 {
-    border-bottom: 1px solid $border-color;
+    border-bottom: 2px solid $pale-blue;
     font-size: 20px;
     margin-bottom: -5px;
     padding-bottom: 4px;
@@ -103,18 +130,22 @@ h3 {
 
 .section-link {
     font-weight: normal;
-    color: #eee;
+    color: $pale-blue;
 }
 
 .site-footer,
 .site-navigation {
-    border-top: 1px solid $border-color;
+    border-top: 2px solid $pale-blue;
 }
 
 .site-navigation ol {
     margin: 0 auto;
     max-width: 640px;
     padding: 16px 20px;
+
+    li {
+        margin-left: 20px;
+    }
 }
 
 blockquote {
@@ -122,7 +153,7 @@ blockquote {
 
     &:before,
     &:after {
-        color: #d6d6d6;
+        color: $blue;
         display: block;
         font-weight: bold;
         font-size: 60px;
@@ -143,15 +174,5 @@ blockquote {
         float: right;
         margin-right: -40px;
         margin-top: -30px - 16px;
-    }
-}
-
-.site-header, .site-footer {
-    font-size: 12px;
-
-    p {
-        margin: 0 auto;
-        max-width: 640px;
-        padding: 12px 20px;
     }
 }

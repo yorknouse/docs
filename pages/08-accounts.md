@@ -64,6 +64,10 @@ The positions held by editors (e.g. _Deputy Food & Drink Editor_) go in the Biog
 
 The [Who's Nouse](http://www.nouse.co.uk/about-nouse/whos-nouse/) page needs to be manually updated every year. But first, copy the old list to a page in the [Previous Editorial Teams](http://www.nouse.co.uk/archives/previous-editorial-teams/) section.
 
+## The Nouse web server
+
+See [SSH](08-accounts.html#).
+
 ## Ideas
 
 * We could allow logging in to WordPress with people's Google accounts, or vice versa

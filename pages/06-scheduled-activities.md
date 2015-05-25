@@ -36,7 +36,3 @@ Some other scripts and commands:
 
 `mutt -s "Database backup" -a /var/www/backup/fantasy_football_backup.sql.gz -- tech@nouse.co.uk`
 : Emails the database backup to someone as an attachment. The WordPress backup is probably too big to email, and the Fantasy Football database doesn't change outside of the season, so this is commented out most of the time
-
-## Ideas
-
-Once upon a time, we restarted various services every night, and restarted the whole sever every week. We also used Logwatch to send useful nightly emails.
