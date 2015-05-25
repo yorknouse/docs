@@ -24,7 +24,7 @@ It's also useful to then compress the combined PDF. Ghostscript is good at doing
 
 For the interactive viewer section, just go to http://issuu.com/ and it's pretty straightforward from there, though I'm not sure who has the login details for the account yorknouse. Embed the document(s) in a post in the Print Edition Archive category, with the correct date and with Nouse as the author (oEmbed is supported, so you can just paste in the Issuu URL like a YouTube video).
 
-Some PDFs are also uploaded to `edtions.nouse.co.uk` The web version of the PDF also needs uploading to the appropriate folder within `/nouse/editions` and linking into the post -- see one of the older posts in the print edition archive for the wording to use.
+PDFs can also, and probably should, be uploaded to `edtions.nouse.co.uk`. `scp` them to your home folder, move them to the appropriate folder within `/nouse/editions`, and link to them in the post -- see one of the older posts in the print edition archive for the wording to use.
 The PDF should ideally be titled in the form `YYYY-MM-DD.pdf`.
 (We've not been very dilligent about actually doing this...)
 
