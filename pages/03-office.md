@@ -35,7 +35,7 @@ The numbering starts with the right-hand machine on the window-side of the room 
 
 All 5 machines are registered in the IT Services landb and should be acquiring IP addresses through DHCP. There are 
 
-They can all be accessed using SSH from within the campus network. (Username `nouse`; passwords [redacted] above.) Off campus, you can go via the VPN or simply [port forwarding](https://twitter.com/louismrose/status/585367906957033472) (with `csteach0.york.ac.uk`, `teaching0.york.ac.uk` or similar).
+They can all be accessed using SSH from within the campus network. (Username `nouse`; passwords [redacted] above.) Off campus, you can go via the VPN or `csteach1.york.ac.uk`.
 
 ## Ideas
 
