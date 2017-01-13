@@ -38,7 +38,7 @@ But you should commit and push regularly -- so commit to a branch other than `ma
 
 Most of the repositories on GitHub have [Webhooks][webhooks] set up.
 When you push to GitHub, it will send a request to deploy.nouse.co.uk.
-Our server will then pull any changes from the `master` branch, and write some information to a log.
+Our server will then pull any changes from the `master` branch, and write some information to a log.  This has recently been experiencing some issues however.
 
 ### Manual deployment
 

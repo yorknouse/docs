@@ -7,7 +7,7 @@ order: 2
 We have a web server.
 It is currently supplied by Digital Ocean,
 because of [the GitHub Student Developer Pack's $100 free credit](https://education.github.com/pack).
-We have used Linode in the past.
+We have used Linode in the past, but are moving to using a Linux VM from IT Services.
 
 ## Nginx
 

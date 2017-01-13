@@ -3,7 +3,7 @@ title: SSH
 layout: page
 ---
 
-Remote login to the servers and office iMacs is done through SSH. 
+Remote login to the servers and office iMacs is done through SSH.
 
 ## Adding accounts
 
@@ -37,7 +37,7 @@ If you lose your SSH keys, the <del>Lish Ajax Console in the [Linode Manager](ht
 
 ## Using the command line
 
-This isn't really the place for a full-blown tutorial. 
+This isn't really the place for a full-blown tutorial.
 
 ## Saving keystrokes
 
@@ -55,3 +55,17 @@ Even better, I can do this:
     HostName nouse.co.uk
 
 So I only need to type `ssh n`.
+
+## SSH locations available
+
+### Old Web Server (marconi.nouse.co.uk)
+
+The old web server is currently still active but is being replaced by a new web server (marconi2) which is hosted on campus.  The old web server follows the instructions given above.
+
+### Web Server (marconi2.york.ac.uk)
+
+The web server authenticates using university credentials for authorised users only.  These users can be modified by contacting IT Support Office via email, and normally takes 2 working days to process.  Access is also restricted to only allow connections to be made from on campus, but you can use the VPN as well.
+
+### Office Macs
+
+Information on the names and usernames is given with other information about the [office](office.html).
