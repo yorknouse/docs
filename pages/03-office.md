@@ -37,6 +37,48 @@ All 5 machines are registered in the IT Services landb (Mice and Men) and should
 
 They can all be accessed using SSH from within the campus network. (Username `nouse`; passwords [redacted] above.) Off campus, you can go via the VPN or `csteach1.york.ac.uk`.
 
+## Software/Files
+
+All machines have some common software installed on them.  All installers are either located at or linked from the Nouse Tech drive.  Some machines have special additional software installed on them also; nousemac3 has printer software and nousemac6 has video editing/broadcast software.
+
+### Adobe Creative Cloud
+
+This is installed from the YUSU installer linked from the Tech drive.  This is relatively convoluted install process as it required extracting three zip files (in order) and then running the installer located within the Build folder.  There is also an uninstaller located here, which should be run in the reverse order.  In all cases the install location needs to be changed manually to `/Applications/Adobe`.
+
+The 5 licenses Nouse uses are funded by a YUSU media grant, and managed by IT Services.  These are the appropriate people to contact for support related issues (not Adobe).
+
+### Microsoft Office/LibreOffice
+Some machines are using very old versions of Microsoft Office on an old licence.  Machines otherwise run LibreOffice, which will replace Microsoft Office once the machines can no longer run it.
+
+### McAfee Endpoint (for Endpoint Orchestrator)
+
+This is the university provided security software.  It should only have the Threat Protection module installed.  We don't use Web Control/Protection or Firewall as the machines are not managed by IT Services.
+
+### Browsers
+mac OS ships with Safari.  We also install Firefox and Chrome to give people a choice of browser.
+
+### Current and Archive (Network Volumes)
+
+These are served by the Nouse Storage folder run by IT Services.  The folder itself if located at `smb://storage.its.york.ac.uk/yususocs/Nouse` with `current` and `archive` being sub-directories.  Storage can also be connected to on a Windows machine by a UNC path.  Any issues with the folder need to be directed to the YUSU IT Coordinator who is our DCO (Departmental Computing Officer).
+
+The machines in the office map the folder using a non-personal IT account (which is "owned" by the Tech Director, remember to transfer ownership before leaving the university).  The password for this account is in the password database, and should be treated as a secret.
+
+We also allow editors who own the correct version of InDesign to connect via their personal devices to the `current` folder only.  Access to this is handled by [permman](http://permman.york.ac.uk), and everyone's access (except that of the tech team and any `univ` or `adm` accounts) should be removed with the election of a new team.
+
+## Building/Upgrading a machine
+
+1. Install the latest version of OS X or mac OS (The minimum version we can use is OS X Yosemite 10.10.5)
+2. Install any software updates from the App Store
+3. Install McAfee Endpoint (or whatever endpoint protection the university uses; it has been Sophos in the past)
+4. Restart the machine (McAfee say you don't have to, but you really should)
+5. Install Adobe Creative Cloud
+6. Open Adobe InDesign to make sure it is allocated a license
+7. Install LibreOffice
+8. Unmount the `tech` folder if it was used for installation
+9. Mount `current` and `archive` from Storage, place the account (both with and without a domain on the user account) in KeyChain, and add them as Login items
+10. Restart the machine and make sure the drives mount correctly
+11. Enable SSH and VNC to allow remote administration
+
 ## Ideas
 
 The iMacs are, apparently, all <del>horribly</del> slow. Some things that would help:
@@ -51,3 +93,5 @@ Shared files used to live in a shared folder on the iMac in the corner, and stil
 The IT Services storage service is now used to store files to ensure backups take place, make remote support easier and remove our reliance on a single machine (which is one of the less stable machines we have).
 
 If we ever increase the video offering at Nouse (which has been tried on several occasions), nousemac6 has some additional software installed to aid in video editing and even live streaming.
+
+Browsers are often accidentally left logged in to peoples accounts.  It may be worth installing some extensions which automatically clear cookies after a period of inactivity or on browser launch/exit.
