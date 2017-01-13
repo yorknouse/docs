@@ -78,6 +78,13 @@ We also allow editors who own the correct version of InDesign to connect via the
 9. Mount `current` and `archive` from Storage, place the account (both with and without a domain on the user account) in KeyChain, and add them as Login items
 10. Restart the machine and make sure the drives mount correctly
 11. Enable SSH and VNC to allow remote administration
+12. Install the fonts from Fonts.zip (Miller Text goes in to `/Applications/Adobe/Adobe InDesign CC 2015/Fonts` instead (Don't ask why, it just does))
+
+If the machine has old versions of Adobe software, uninstall it once you are sure the new version is working correctly by using the uninstallers at `/Applications/Utilities/Adobe Installers` for the correct version.  Make sure you don't uninstall the new version otherwise it will require a wait whilst IT Services reset the license.
+
+### Connect to Storage after mounting other Volumes
+
+mac OS will always use the saved credentials to access files unless you explicitly specify otherwise by entering the server of the form `smb://username:*@storage.its.york.ac.uk/yususocs/Nouse`.  Please note you must enter your username and an asterisk after the colon to force the password prompt to appear.  Remember not to add any personal passwords to the KeyChain.
 
 ## Ideas
 
