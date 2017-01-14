@@ -5,7 +5,9 @@ layout: page
 
 ## Twitter
 
-?
+We have four Twitter accounts altogether: [@yorknouse](https://www.twitter.com/yorknouse), [@nousemuse](https://www.twitter.com/nousemuse), [@nouselive](https://www.twitter.com/nouselive) and [@nousesport](https://www.twitter.com/nousesport).  These accounts are normally the responsibility of the Social Media Director.
+
+IFTT (and also possibly Buffer) are used to tweet automatically onto these accounts.
 
 
 ## Google+
@@ -41,4 +43,16 @@ Slideshows of photos on Flickr can be added to articles:
 
 ## Instagram
 
-...
+There are two Instagram accounts: [yorknouse](https://www.instagram.com/yorknouse) and [nousefashion](https://www.instagram.com/nousefashion).  The main account is currently underused.  We used to be able to run Instagram feeds on pages but this feature has recently broken.
+
+## Facebook
+
+There are Facebook pages used for several things.  These are handled by the Social Media Director, and access is granted to the Facebook Business Manager by them.  They also use IFTTT (and Buffer) to post automatically to these accounts.
+
+Each of the paper sections maintains a section Facebook Group for their writers.  There are also often groups for events the occur throughout the year, which the Tech team are often useful in.
+
+We also have a Facebook app for use with the account system, which the Tech Director owns.
+
+## Rightster
+
+Muse make use of this service.
