@@ -4,7 +4,7 @@ layout: page
 ---
 
 One of the unofficial roles of technical director is [“bastion of posterity”](http://www.nouse.co.uk/2009/04/27/a-window-to-the-past/) -- this means making sure nothing gets unnecessarily lost or deleted.
-This includes making sure all editions are archived to the back up hard drives, all edition PDFs are uploaded to the website, and all minisites continue to appear as they did when they were put up.
+This includes making sure all edition PDFs are uploaded to the website, and all minisites continue to appear as they did when they were put up.  Backups of all editions themselves are handled by the University storage service we use.
 For mini-sites, this is made easier by the fact that the majority contain year conditional clauses (which can be added to) that contain the individual content/layout for that year’s site, although make sure not to overwrite stylesheets or images as well.
 When dramatic changes have occurred, we’ve archived static versions.
 

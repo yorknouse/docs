@@ -18,7 +18,7 @@ You can read `www-data`'s _crontab_:
 Some PHP scripts that run via [WP-CLI](http://wp-cli.org/):
 
 `cd /var/www/nouse/wp-content/scripts; /usr/local/bin/wp eval-file fix-missed-schedule.php`
-: Publishes any scheduled posts, every 5 minutes
+: Publishes any scheduled posts, every 5 minutes (This does sometimes miss pages however)
 
 `cd /var/www/nouse/wp-content/scripts; /usr/local/bin/wp eval-file update-counts.php`
 : Updates the pageviews in the WordPress admin panel, and the Most Read lists on the site
@@ -26,7 +26,7 @@ Some PHP scripts that run via [WP-CLI](http://wp-cli.org/):
 Some other scripts and commands:
 
 `python ~/scripts/backup-best.py`
-: This is run weekly during the Fantasy Football season, to generate the "team of the week" on the front page. Outside of season, it adds an empty team to the database, which we do not want, so we comment out the line in the crontab. (It would be better to fix the script so that it won't matter)
+: This is run weekly during the Fantasy Football season, to generate the "team of the week" on the front page. Outside of season, it adds an empty team to the database, which we do not want, so we comment out the line in the crontab. (It would be better to fix the script so that it won't matter, and stop the errors is frequently generates when it is running)
 
 `/var/www/scripts/nouse-backup-wp`
 : Backs up the WordPress MySQL database to the `/var/wwww/backup/` folder. The backup is compressed using `gzip` with the `--rsyncable` flag
@@ -35,4 +35,4 @@ Some other scripts and commands:
 : Backs up the Fantasy Football MySQL database...
 
 `mutt -s "Database backup" -a /var/www/backup/fantasy_football_backup.sql.gz -- tech@nouse.co.uk`
-: Emails the database backup to someone as an attachment. The WordPress backup is probably too big to email, and the Fantasy Football database doesn't change outside of the season, so this is commented out most of the time
+: Emails the database backup to someone as an attachment. The WordPress backup is probably too big to email, and the Fantasy Football database doesn't change outside of the season, so this is commented out most of the time.  Once the new server is commissioned it would be nice to have a service account with the University to make a copy to a mounted storage folder since the VM backups aren't designed for keeping SQL databases safe (and the University SQL cluster doesn't currently meet our needs).
