@@ -7,7 +7,7 @@ layout: page
 
 We have four Twitter accounts altogether: [@yorknouse](https://www.twitter.com/yorknouse), [@nousemuse](https://www.twitter.com/nousemuse), [@nouselive](https://www.twitter.com/nouselive) and [@nousesport](https://www.twitter.com/nousesport).  These accounts are normally the responsibility of the Social Media Director.
 
-IFTT (and also possibly Buffer) are used to tweet automatically onto these accounts.
+IFTT (and also possibly Buffer) are used to tweet automatically onto these accounts.  Things have gotten a bit mangled by them in the past so we need to investigate revoking the old services and setting them up again.
 
 
 ## Google+

@@ -22,7 +22,7 @@ First, a current Super Administrator must give you an account and assign it Supe
 
 [The "admin console"](https://admin.google.com/nouse.co.uk/AdminHome) is where everything is done. (There are also official apps you can get on your mobile phone.)
 
-You can create users one-by-one ("manually"). Google will generate random temporary password, and help you to send the details to the person's `@york.ac.uk` email address. 
+You can create users one-by-one ("manually"). Google will generate random temporary password, and help you to send the details to the person's `@york.ac.uk` email address.
 
 Alternatively, you can choose the "bulk" option, where you upload a CSV file (a sort of spreadsheet). This isn't quite as brilliant as it sounds: Google is a bit fussy about the formatting, and won't help you with generating passwords or emailing details.
 
@@ -32,7 +32,7 @@ Most sections have "group" email addresses (e.g. `tech@nouse.co.uk`) of which th
 Emails sent to `sport@nouse.co.uk` go to all the sports editors, for example.
 After each election, be sure to add editors to [groups](https://admin.google.com/nouse.co.uk/AdminHome#GroupList:), and remove old editors from groups.
 
-Individuals can also have "aliases", but this is only used for common misspellings of people's names.
+Individuals can also have "aliases", but this is only used for common misspellings of people's names and for sections such as Film & Television where content can sometimes be presented as if they were two separate sections.
 Even though `deputy-editor@nouse.co.uk` has only one recipient, it is a Group, because it's easier to manage like that.
 
 Note that groups must all be explicitly configured to "Also allow anyone on the Internet to post messages" -- there's a box somewhere that needs to be ticked.
@@ -72,4 +72,6 @@ See [SSH](08-accounts.html#).
 
 * We could allow logging in to WordPress with people's Google accounts, or vice versa
 
-* It is technically possible to have a WordPress user account without a password or unique email address (which would be very useful for the "contributor" accounts). We just need to create a custom form for registering these accounts
+* It is technically possible to have a WordPress user account without a password or unique email address (which would be very useful for the "contributor" accounts). We "just" need to create a custom form for registering these accounts
+
+* See things about the accounts system mentioned elsewhere

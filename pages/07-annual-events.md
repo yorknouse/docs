@@ -3,25 +3,23 @@ title: Annual events
 layout: page
 ---
 
-In hopefully chronological order.
+In hopefully chronological order (Guideline dates really need adding).
 
-This page attempts to straddle the line between providing information you can figure out for yourself, and not providing enough information. 
+This page attempts to straddle the line between providing information you can figure out for yourself, and not providing enough information.
 In reading it, it becomes clear that lots of our website and things are horrible messes of bad code, and WordPress is not especially helpful -- sorry about that.
 
 These instructions describe how to keep thing ticking over in a sort of homoeostasis, but we hope you'll want to change things to make them actually better.
 
 ## JCRC Elections
 
-Not very exciting, but one of the first things in every academic year. There will be some coverage of each college's hustings and elections results.
+Not very exciting, but one of the first things in every academic year. There will be some coverage of each college's hustings and elections results, normally across two articles (one for hustings and one for results).
 
-In 2013, we used the misleadingly named `single-freshers-colleges.php` post template (originally made for the preceding summer's freshers' site). All the colleges' [hustings reports](http://www.nouse.co.uk/2013/11/18/college-elections-2013/) were crammed into one post with some fragile HTML, and the same for the [results](http://www.nouse.co.uk/2013/11/23/college-election-results/) -- this was a bit of a nightmare.
-
-Next year, we _could_ simply squeeze Constantine College into that template, but it would be better to do something else.
+There is a plugin that adds college tabs to the page with some shortcodes.  This needs improving as it can be a bit unstable at times, but it does serve it's purpose.
 
 ## YUSU Elections
 
 These happen every February. [Our websites for this](http://www.nouse.co.uk/elections/) are quite good.
-Archived versions from 2009 onwards are all accessible via the drop-down menu, and the 2013 and 2014 sites are "live", running the current version of the source code.
+Archived versions from 2009 onwards are all accessible via the drop-down menu, and the 2013-2017 sites are "live", running the current version of the source code.
 
 There is a "Candidate" custom post type, which should be used for the elections candidates' "profiles".
 Each should be placed in the special category for the position they're standing for.
@@ -56,16 +54,30 @@ People can click on thumb icons to express their feelings for candidates.
 This is enabled by the Nouse Comment Voting plugin.
 Don't call the candidate ratings an "exit poll" because you will anger psephologists.
 
+### Ideas
+
+Everything discussed here to do with elections is dependent on the current template remaining active.  Some serious thought needs to go into this as when the new theme is launched all elections pages (past, present and future) will stop working.  In particular candidate entries as they will become inaccessible.
+
 ## College Varsity
 
 Previously, a one-day White Rose Varsity event took place against Hull University. Now, in its place, there is a College Varsity played against Durham. This is useful rehearsal for the Roses sport tournament (see below), for athletes and the media alike.
 
 ## Roses
 
+The event which needs no introduction (but here we go anyway), Roses is the biggest inter-university sports tournament in Europe.  ViddyPrinter is used to provide the sports scoreboard on the right hand side, and LiveBlogPro to provide rolling coverage updates.
+
+There are some set-up and code changes needed every year to get things ready.
+
+### Ideas
+
+ViddyPrinter is discussed elsewhere.  It could one day either integrate better with LiveBlogPro or replace it altogether.
+
+There should really be stronger coupling between Varsity and Roses sites as well.  There is currently a lot of code duplication and inconsistencies between them which has caused issues in the past.
+
 ## Fantasy Football
 
 Fantasy Football runs every summer term alongside the college football cup.
-It’s quite popular. 
+It’s quite popular.
 You can begin thinking about it during the Easter holidays.
 
 You’ll need the MySQL username (`fantasy_football`) and password for the `fantasy_football` database.
@@ -89,7 +101,7 @@ In phpMyAdmin, paste in this bunch of queries (use the “SQL” tab) to do it a
 
 Ask the sports editors for a list of college teams. Import them into the colleges database table. If you do this in order of ‘group’ (once the college cup draw has taken place) then updating the college cup mini-site (which uses FF database to generate league tables) might be slightly easier.
 
-MySQL will automatically assign each team a new numerical id. 
+MySQL will automatically assign each team a new numerical id.
 
 id | name | year
 44 | Halifax 1st | 2014
@@ -106,7 +118,7 @@ There's a spreadsheet template which is useful for the sport editors collecting 
 
 https://docs.google.com/a/nouse.co.uk/spreadsheet/ccc?key=0Ajk4BEosguSmdDJJTmNkYmZSSVJPSTFOWkF6N1JjMWc
 
-I suggest choosing File > Make a copy... and replacing all the previous year's data with this year's. 
+I suggest choosing File > Make a copy... and replacing all the previous year's data with this year's.
 
 When the time comes to import the data:
 
@@ -129,11 +141,11 @@ But it’s not really just in the interest of fairness - it’s because our soft
 
 ### Passwords
 
-It is possible to manually reset a user’s password. Change the user’s confirmed field in the database to ‘no’, and email them a link like this: 
+It is possible to manually reset a user’s password. Change the user’s confirmed field in the database to ‘no’, and email them a link like this:
 
 http://www.nouse.co.uk/fantasy-football/register-confirm/?yorkid=aw1067&confirm=d0232be7ea95cc832a22f93bc84edc9e687442e9&name=Alex+Wooley&teamname=Unreal+Madrid
 
-Where the username is aw1067, the confirmhash (from the database) is d0232be7ea95cc832a22f93bc84edc9e687442e9, the name is Alex Wooley, and the name of their team is Unreal Madrid. This is the same kind of link sent when someone creates an account, but with the additional fields to prepopulate the username and team name fields (the user nevertheless has an opportunity here to change their name). The form 
+Where the username is aw1067, the confirmhash (from the database) is d0232be7ea95cc832a22f93bc84edc9e687442e9, the name is Alex Wooley, and the name of their team is Unreal Madrid. This is the same kind of link sent when someone creates an account, but with the additional fields to prepopulate the username and team name fields (the user nevertheless has an opportunity here to change their name). The form
 
 We could fairly straightforwardly build in a proper password reset thing, based on this principle.
 
@@ -195,3 +207,12 @@ Point 4, you will need to ask the sports editors to give you the transfer period
 Point 5, once you're ready to go, change the year on line 29 - no need to change the enabled variable on line 30 as looks like I forgot to change it back at the end of last year anyway!
 
 Once it's all underway there's a script that you can run which will generate the "team of the week" that is shown on the fantasy football homepage based on the best scoring players from the previous week, so I'll dig out what that is and let you know later on.
+
+### Ideas
+Some form of WordPress plugin and new code in Fantasy Football could make things so much more manageable and require a lot less code editing.
+
+## Freshers
+
+This is the last event of the year for us before team elections, but it is also the one where we have to make a big impression with new students.  There is a mini-site which will be updated pretty much constantly from A-Level results day through to the end of Welcome Week.
+
+There are templates for the freshers site to update and develop from (but again with the new server and theme this will likely change).

@@ -15,6 +15,8 @@ This change can take a few days or even weeks to propagate through to the search
 If you need to go further in removing content, try and leave deleting something completely as a last resort.
 Removing or changing occurrences of someone’s name in an article is often also an option.
 
+If the complaint is from Google themselves then it can often be resolved by disabling advertising for a single page by ticking the box in WordPress.
+
 ## PDFs
 
 Sometimes we get asked to edit old PDFs in the print edition archive.
