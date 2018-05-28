@@ -13,3 +13,20 @@ Articles themselves should be kept online unless under legal threat -- [removing
 It is also nice if you keep an eye on articles put up on the website by other people to make sure that everything is done properly (e.g. article images sized properly, excerpts added).
 This will probably all become clearer as you read the rest of this guide.
 Basically, hopefully you’ll feel the need - and want - to keep everything looking and working amazing, and keep Nouse’s heritage going from the past and into the future.
+
+## Joining the Tech Team
+
+Any person joining the tech team will need to be given access to the various tech systems.
+
+* G Suite Administrator Console
+* marconi server (via ssh key)
+* marconi2 server (uni username and password)
+* SpiceWorks
+* Trello
+* storage (via permman)
+* KeePass
+* WordPress
+* Slack
+* GitHub
+
+When the tech director changes it is important to transfer the ownership of university issues univ accounts to ensure they do not expire and require resetting by IT Services.
