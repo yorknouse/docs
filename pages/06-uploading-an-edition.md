@@ -24,14 +24,7 @@ It's also useful to then compress the combined PDF. Ghostscript is good at doing
 
 For the interactive viewer section, just go to http://issuu.com/ and it's pretty straightforward from there, the login being in the password database. Embed the document(s) in a post in the Print Edition Archive category, with the correct date and with Nouse as the author (oEmbed is supported, so you can just paste in the Issuu URL like a YouTube video).
 
-PDFs can also, and probably should, be uploaded to `edtions.nouse.co.uk`. `scp` them to your home folder, move them to the appropriate folder within `/nouse/editions`, and link to them in the post -- see one of the older posts in the print edition archive for the wording to use.
-The PDF should ideally be titled in the form `YYYY-MM-DD.pdf`.
-(We've not been very diligent about actually doing this and there is currently a large number of editions which are not stored there.)
-This is a process which could probably be greatly improved once the new server is up and running with some clever ~~magic~~ programming.
-
-We used to have our own PDF viewer (see `wp-content/themes/nouse/js/nouse-pdf-viewer.js`) which no longer works.
-It would be good to fix it and stop depending on the continued existence of Issuu, and potentially introduce links to the website versions of the articles.
-
+PDFs must also be uploaded to the appropriate folder of https://github.com/yorknouse/editions. The PDF should ideally be titled in the form `YYYY-MM-DD.pdf`.
 
 ## Extracting images
 
