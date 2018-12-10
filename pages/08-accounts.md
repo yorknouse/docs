@@ -22,7 +22,7 @@ First, a current Super Administrator must give you an account and assign it Supe
 
 [The "admin console"](https://admin.google.com/nouse.co.uk/AdminHome) is where everything is done. (There are also official apps you can get on your mobile phone.)
 
-You can create users one-by-one ("manually"). Google will generate random temporary password, and help you to send the details to the person's `@york.ac.uk` email address.
+You can create users one-by-one ("manually"). Google will generate random temporary password, and help you to send the details to the person's `@york.ac.uk` email address - if after account creation you click "more actions", then "email login info" in the modal that appears.
 
 Alternatively, you can choose the "bulk" option, where you upload a CSV file (a sort of spreadsheet). This isn't quite as brilliant as it sounds: Google is a bit fussy about the formatting, and won't help you with generating passwords or emailing details.
 
@@ -30,7 +30,7 @@ Alternatively, you can choose the "bulk" option, where you upload a CSV file (a 
 
 Most sections have "group" email addresses (e.g. `tech@nouse.co.uk`) of which the editors are all members.
 Emails sent to `sport@nouse.co.uk` go to all the sports editors, for example.
-After each election, be sure to add editors to [groups](https://admin.google.com/nouse.co.uk/AdminHome#GroupList:), and remove old editors from groups.
+After each election, be sure to add editors to [groups](https://admin.google.com/nouse.co.uk/AdminHome#GroupList:), and remove old editors from groups. Main editors are the owners of the respective group, and deputies are members except in the case of the deputy editor in chief - who is the owner of their group. 
 
 Individuals can also have "aliases", but this is only used for common misspellings of people's names and for sections such as Film & Television where content can sometimes be presented as if they were two separate sections.
 Even though `deputy-editor@nouse.co.uk` has only one recipient, it is a Group, because it's easier to manage like that.
