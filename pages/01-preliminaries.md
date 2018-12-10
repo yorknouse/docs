@@ -19,14 +19,10 @@ Basically, hopefully you’ll feel the need - and want - to keep everything look
 Any person joining the tech team will need to be given access to the various tech systems.
 
 * G Suite Administrator Console
-* marconi server (via ssh key)
-* marconi2 server (uni username and password)
+* Relevant server logins
 * SpiceWorks
-* Trello
-* storage (via permman)
 * KeePass
-* WordPress
-* Slack
+* DigitalOcean
 * GitHub
 * GoogleDrive Team Drive access for Photography Team Drive (those who should have manager access should be the TD, Editor, Deputy Editor, MUSE Editor, Deputy MUSE Editor, Photo Editor and Deputy Photo Editor)
 
