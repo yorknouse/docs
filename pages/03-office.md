@@ -3,19 +3,18 @@ title: The office
 layout: page
 ---
 
-The office is in [Grimston House](http://www.openstreetmap.org/way/60004913).
+The office is in Eric Milner Block A (next to James college but technically in Vanbrugh)
 
 ## Hardware
 
-The office network is connected through a D-Link switch located on top of the cabinet to the right of the row of iMacs.  It is connected to the campus network (which also provides the whole office’s internet connection) through the port labelled _V/X/010/5_.  The switch [would ordinarily contravene some IT Services policies](http://www.york.ac.uk/it-services/connect/guidelines/) but allow it to exist as the alternative is to close the building for several weeks whilst asbestos contractors install additional ports.
+The office network is connected through a HP switch located on the floor by the window.  It is connected to the campus network through the port labelled _G/A/069-05_.  The switch is owned, managed and looked after by IT Services and shoudn't be tampered with. If you need to connect anything, you can use sockets 1 to 8 (the block of 8 on the left-side). Port 9 is the uplink port to the rest of the network and port 10 should be left empty. The two other sockets (gbic ones) should also remain unused.
 
-There are three Intel Core 2 Duo iMacs which are 2008 aluminium models. There are also two older ([late 2006](http://support.apple.com/kb/Sp28)) plastic models which were recently decommissioned in favour of some newer Mac Minis (from 2011 I believe).  There are also two headless servers -- `marconi` (the Dell) and `hunter` (the Viglen) -- and a [Macintosh Classic II](http://support.apple.com/kb/sp204), none of which are currently operational.
+One of the Macs is connected directly to 
 
-There is an old printer/scanner stored in the archive area. Some information about it:
+There are three Intel Core 2 Duo iMacs which are 2008 aluminium models. There are two Mac Minis (from 2011 I believe).
 
-> The printer/scanner is connected to the left most older iMac (as you are facing them) and should be shared across all the Macs. If there are any issues with it, it is normally to do with the actual menu system on the printer. I think it refuses to do anything if there is some kind of message displayed on there so play around with the buttons on it to try and get rid of it.
 
-There is a new Canon laser printer sat in front of the switch which was recently purchased.  This was handled by the MD so we don't know much about the setup beyond printer sharing having been configured on the Macs.
+There is a new Canon laser printer sat by the window - this was handled by the MD at the time so we don't know much about the setup beyond printer sharing having been configured on the Macs.
 
 If a password is required, the password is ████████████████ for all except the editor’s machine `nousemac2` which at the time of writing is █████████.
 This password is also needed to unlock that computer from sleep or the screensaver and it seems should not be given out to anyone.
@@ -25,16 +24,12 @@ These are the hostnames and MAC addresses for the 5 iMacs:
     nousemac1.york.ac.uk | 00:22:41:38:a8:97
     nousemac2.york.ac.uk | 00:22:41:36:03:21
     nousemac3.york.ac.uk | 00:22:41:35:f8:62
-    nousemac4.york.ac.uk | 00:19:e3:3b:49:56 (retired)
-    nousemac5.york.ac.uk | 00:19:e3:3b:8b:9f (retired)
     nousemac6.york.ac.uk | 40:6c:8f:19:7f:4b
     nousemac7.york.ac.uk | 68:5b:35:ce:35:82
 
-The numbering starts with the right-hand machine on the window-side of the room and works its way round to the left-hand machine on the opposite side. Each computer is also plugged into the corresponding numbered port on the switch.
-
 All 5 machines are registered in the IT Services landb (Mice and Men) and should be acquiring IP addresses through DHCP. In cases where machines are moved and fail to get leased a new IP this is often due to an issue with the multi-lan ports used by IT Services.  Often unplugging and replugging the switch is enough to get the problem machine working (even if it is not now connected to the switch due to how multi-ports are allocated and released).
 
-They can all be accessed using SSH from within the campus network. (Username `nouse`; passwords [redacted] above.) Off campus, you can go via the VPN, `csteach1.york.ac.uk`, or the [Virtual Desktop Service](https://vds.york.ac.uk/html5).
+They can all be accessed using SSH from within the campus network. (Username `nouse`; passwords [redacted] above.) Off campus, you can go via the VPN or the [Virtual Desktop Service](https://vds.york.ac.uk/html5).
 
 ## Software/Files
 
