@@ -4,6 +4,8 @@ layout: page
 ---
 
 We now use [Live Blog Pro](http://www.ocqur.com) (by Jonathan Frost and Andrew Fairbairn).
+
+
 But here is some information about the old system, which should obviously be kept around in some form so that old live blogs can be enjoyed by future historians:
 
 > The Nouse live blog system is powered by the Live Blogging for WordPress plugin, created by former technical director Chris Northwood. However, there are a lot of custom improvements on top of this (including tabbed streams and notifications, and individual comment updating) so – as with the several other plugins listed just above – it should not be upgraded except with extra care. The updating mechanism uses an installation of Meteor server (at data.nouse.co.uk) and is why our Linode account also has an extra IP address on it.

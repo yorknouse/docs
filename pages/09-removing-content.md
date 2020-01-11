@@ -5,17 +5,9 @@ layout: page
 
 Occasionally a request will come in for content to be removed from the website because it is a bit awkward and showing up in high ranking positions on search engines like Google when you type in someone’s name.  This does not, however, mean that the content has to be deleted from the site (unless requested so for legal reasons!).
 
-## WordPress
+## Website
 
-There is an easy way to stop an individual article from appearing in search engines.
-Simply go to the edit screen for that post in WordPress, find the *Exclude Search Engines* box and tick the box in there, then click the post’s big *Update* button to save the change.
-
-This change can take a few days or even weeks to propagate through to the search engines but eventually will cause that page to disappear from their results.
-
-If you need to go further in removing content, try and leave deleting something completely as a last resort.
-Removing or changing occurrences of someone’s name in an article is often also an option.
-
-If the complaint is from Google themselves then it can often be resolved by disabling advertising for a single page by ticking the box in WordPress.
+Set the status of the article to draft
 
 ## PDFs
 
@@ -25,9 +17,9 @@ It's a bit fiddly to use, but it does the job really well -- it _completely_ rem
 
 **(needs more detailed hints about how to use the redaction feature)**
 
-Old PDFs hosted on our website have to be downloaded, edited, re-uploaded using `scp` or `rsync`, and moved back to the right place in `/var/www/article_images/body/` (remember to give `www-data` ownership of them once they're there).
+Old PDFs hosted on our website have to be downloaded, edited, them re-uploaded
 
-More recent print editions are hosted on Issuu, which is different and I don't know about.
+More recent print editions are hosted on Issuu, which is different
 
 ## Encouraging Google to re-index pages
 
