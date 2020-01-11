@@ -3,12 +3,7 @@ title: Accounts
 layout: page
 ---
 
-Editors are given Google Apps accounts and WordPress accounts.
-Editors can also create unprivileged WordPress accounts for contributing writers, so that their names can appear on their articles on the website.
-
-The process is a bit tedious.
-We introduce more automation, but [haven't bothered yet](http://xkcd.com/1205/).
-It helps if the workload is split between several people.
+Editors are given Google Apps accounts, and need adding in to the backend of the site (edit.nouse.co.uk)
 
 ## Google Apps
 
@@ -37,41 +32,8 @@ Even though `deputy-editor@nouse.co.uk` has only one recipient, it is a Group, b
 
 Note that groups must all be explicitly configured to "Also allow anyone on the Internet to post messages" -- there's a box somewhere that needs to be ticked.
 
-## WordPress
+## Backend
 
-Some newly elected editors will already have WordPress accounts, if they have ever contributed articles before. Find these first, and change their roles from Contributor to Editor.
+Simply adding their university username and nouse username alongside their name and role is all you need to do. Best to search their name to see if they already have a website account first though as they may already have an account from writing for us before or from maybe being a former editor. 
 
-Create new accounts using [the Add New User form](https://www.nouse.co.uk/wordpress/wp-admin/user-new.php):
-
-Username
-: Firstname Lastname (e.g. “Joe Bloggs”) (yes, spaces are allowed)
-
-Email
-: The writer’s `@nouse.co.uk` address if they have one, otherwise maybe their university one
-
-First Name
-: Optional, but will affect the "... has written _n_ articles for Nouse" text, which is pretty cool
-
-Password
-: Don't worry about remembering it -- when the editors know their usernames, they can use the [Lost Password](https://www.nouse.co.uk/wordpress/wp-login.php?action=lostpassword)
-
-Role
-: Special trustworthy people can be _Administrators_. New editors are _Editors_.  Other writers, who will not be logging in themselves, are _Contributors_
-
-The positions held by editors (e.g. _Deputy Food & Drink Editor_) go in the Biographical Info field (only available when you edit an existing user, apparently), and will appear automatically on the website. If someone changes position, replace (!) the text with their new position. If someone retires, append the years of their tenure in brackets (e.g. `(2010/11)` or `(2009–11)`).
-
-## Who's Nouse
-
-The [Who's Nouse](http://www.nouse.co.uk/about-nouse/whos-nouse/) page needs to be manually updated every year. But first, copy the old list to a page in the [Previous Editorial Teams](http://www.nouse.co.uk/archives/previous-editorial-teams/) section.
-
-## The Nouse web server
-
-See [SSH](08-accounts.html#).
-
-## Ideas
-
-* We could allow logging in to WordPress with people's Google accounts, or vice versa
-
-* It is technically possible to have a WordPress user account without a password or unique email address (which would be very useful for the "contributor" accounts). We "just" need to create a custom form for registering these accounts
-
-* See things about the accounts system mentioned elsewhere
+There's a "macro" to cache the dates for adding roles to make things quicker. There's also a "end all roles today" button which is useful for wiping the slate clean at annual elections.   
