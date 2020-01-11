@@ -9,6 +9,7 @@ The office is in Eric Milner Block A (next to James college but technically in V
 
 We used to have Macs but as of January 2020 they were replaced by a YuFund grant with PC SPECIALIST Vortex GR Models. Specs as follows:
 
+| Item | Details |
 |---|---|
 | Case | CM Masterbox MB600L | 
 | Case Logo | PCSpecialist | 
@@ -25,6 +26,7 @@ We paid £688.91 each for them.
 
 ## Networking
 
+| Hostname | Location | MAC Address |
 |---|---|---|
 | nousepc8.york.ac.uk | Left near door  | 04-D9-F5-F2-D6-10 | 
 | nousepc9.york.ac.uk | Left middle  | 04-D9-F5-F2-D8-2D | 
