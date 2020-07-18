@@ -9,12 +9,6 @@ We have four Twitter accounts altogether: [@yorknouse](https://www.twitter.com/y
 
 IFTT are used to tweet automatically onto these accounts.  Things have gotten a bit mangled by them in the past so we need to investigate revoking the old services and setting them up again.
 
-
-## Google+
-
-?!
-
-
 ## Flickr
 
 Our account is at flickr.com/yorknouse

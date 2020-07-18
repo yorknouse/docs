@@ -27,4 +27,3 @@ Directory structure as follows
 				`USER-THUMNAIL` Thumnail icons for users
 				
 				`ARTICLES` Images used in articles
-	

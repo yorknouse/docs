@@ -7,19 +7,13 @@ Occasionally a request will come in for content to be removed from the website b
 
 ## Website
 
-Set the status of the article to draft
+Set the status of the article to draft, or remove the author from the article and check there are no referneces to it
 
 ## PDFs
 
 Sometimes we get asked to edit old PDFs in the print edition archive.
 The best tool is [Nuance PDF Coverter](http://www.york.ac.uk/it-services/it/software/a-z/pdf-converter/#tab-1), which is installed on all campus PCs _and_ there's a university-provided license code for home use.
-It's a bit fiddly to use, but it does the job really well -- it _completely_ removes selected text and graphics (it doesn't just draw a box on top), while perfectly preserving everything else ([example](http://www.nouse.co.uk/wp-content/article_images/body/2007/12/08.pdf)).
-
-**(needs more detailed hints about how to use the redaction feature)**
-
-Old PDFs hosted on our website have to be downloaded, edited, them re-uploaded
-
-More recent print editions are hosted on Issuu, which is different
+It's a bit fiddly to use, but it does the job really well -- it _completely_ removes selected text and graphics (it doesn't just draw a box on top), while perfectly preserving everything else
 
 ## Encouraging Google to re-index pages
 

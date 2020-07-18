@@ -3,11 +3,11 @@ title: Accounts
 layout: page
 ---
 
-Editors are given Google Apps accounts, and need adding in to the backend of the site (edit.nouse.co.uk)
+Editors are given Google GSuite accounts, and need adding in to the backend of the site (edit.nouse.co.uk)
 
-## Google Apps
+## Google GSuite
 
-We are grandfathered into a free Google Apps plan, which we use to provide elected members with prestigious `firstname.lastname@nouse.co.uk` email accounts and the sundry other Google services.
+We are grandfathered into a free Google GSuite plan, which we use to provide elected members with prestigious `firstname.lastname@nouse.co.uk` email accounts and the sundry other Google services.
 One day, this will probably end and we'll have to host our own email.
 Meanwhile, we have a limit of 200 users, so should be gradually deleting the accounts of alumni who no longer use their accounts.
 

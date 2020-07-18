@@ -4,7 +4,7 @@ layout: page
 ---
 
 One of the unofficial roles of technical director is [“bastion of posterity”](http://www.nouse.co.uk/2009/04/27/a-window-to-the-past/) -- this means making sure nothing gets unnecessarily lost or deleted.
-This includes making sure all edition PDFs are uploaded to the website, and all minisites continue to appear as they did when they were put up.  Backups of all editions themselves are handled by the University storage service we use.
+This includes making sure all edition PDFs are uploaded to the website for example. Backups of all indesign content on the filestore is handled by the University storage service we use.
 When dramatic changes have occurred, we’ve archived static versions.
 
 Articles themselves should be kept online unless under legal threat -- [removing them from search engines, or editing them](removing-content.html), may be a suitable compromise if there are concerns.
@@ -19,7 +19,6 @@ Any person joining the tech team will need to be given access to the various tec
 
 * G Suite Administrator Console
 * Relevant server logins
-* SpiceWorks (support tickets)
 * DigitalOcean
 * GitHub
 * GoogleDrive Team Drive for passwords
