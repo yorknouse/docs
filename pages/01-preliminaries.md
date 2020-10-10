@@ -18,6 +18,7 @@ Basically, hopefully you’ll feel the need - and want - to keep everything look
 Any person joining the tech team will need to be given access to the various tech systems.
 
 * G Suite Administrator Console
+* Filestore - https://permman.york.ac.uk/
 * Relevant server logins
 * DigitalOcean
 * GitHub
