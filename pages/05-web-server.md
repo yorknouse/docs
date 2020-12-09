@@ -4,12 +4,18 @@ layout: page
 order: 2
 ---
 
-We have servers for:
+The University provides us with a Virtual Machine (yusunouse01.york.ac.uk) which is exposed to the web to allow it to be accessed by Cloudflare.
 
-* Development
-* Production 
-* Production Database
+| Item | Details |
+|---|---|
+| Hostname | yusunouse01.york.ac.uk | 
+| OS | Linux Ubuntu 20.04 | 
+| Memory | 4GB | 
+| CPU | 2CPU | 
+| Storage | 30GB - but really doesn't need much as all it stores is the database |
+| Network | Gigabit - seems to get about 650 Mbit/s down and 465 Mbit/s up |
 
-The development system using the production database because I (James) am a bit lazy and we were developing the CMS in a hurry. 
+The University back it up for 90 days - I don't really know what this means, and so we also back up the Database separately.
+The code on the machine is just a copy from the Github, it shouldn't even be edited locally anyway so that's not backed up by us or anything. 
 
-All the servers are currently supplied by Digital Ocean
+To access it, ensure you've been added by IT services and are using the VPN

@@ -19,10 +19,11 @@ Any person joining the tech team will need to be given access to the various tec
 
 * G Suite Administrator Console
 * Filestore - https://permman.york.ac.uk/
-* Relevant server logins
+* University VM (yorknouse01.york.ac.uk)
 * DigitalOcean
 * GitHub
 * GoogleDrive Team Drive for passwords
 * GoogleDrive Team Drive access for Photography Team Drive (those who should have manager access should be the TD, Editor, Deputy Editor, MUSE Editor, Deputy MUSE Editor, Photo Editor and Deputy Photo Editor)
+* JIRA
 
 When the tech director changes it is important to transfer the ownership of university issues univ accounts to ensure they do not expire and require resetting by IT Services.
