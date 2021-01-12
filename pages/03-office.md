@@ -60,13 +60,4 @@ They each run Adobe Indesign - this is handled by YUSU's IT coordinator so get i
 
 ## Printing
 
-There is a Canon laser printer sat by the window - it's setup for the computer nearest it to print. 
-
-### Current and Archive (Network Volumes)
-
-These are served by the Nouse Storage folder run by IT Services.  The folder itself if located at `smb://storage.its.york.ac.uk/yususocs/Nouse` with `current` and `archive` being sub-directories.  Storage can also be connected to on a Windows machine by a UNC path.  Any issues with the folder need to be directed to the YUSU IT Coordinator who is our DCO (Departmental Computing Officer).
-
-The machines in the office map the folder using a non-personal IT account - univ (which is "owned" by the Tech Director, remember to transfer ownership before leaving the university).  The password for this account should be treated as a secret.
-
-We also allow editors who own the correct version of InDesign to connect via their personal devices to the `current` folder only.  Access to this is handled by [permman](http://permman.york.ac.uk), and everyone's access (except that of the tech team and any `univ` or `admn` accounts) should be removed with the election of a new team.
-
+There is a Canon laser printer sat by the window - it's setup for the computer nearest it to print.

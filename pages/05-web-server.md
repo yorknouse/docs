@@ -18,4 +18,7 @@ The University provides us with a Virtual Machine (yusunouse01.york.ac.uk) which
 The University back it up for 90 days - I don't really know what this means, and so we also back up the Database separately.
 The code on the machine is just a copy from the Github, it shouldn't even be edited locally anyway so that's not backed up by us or anything. 
 
-To access it, ensure you've been added by IT services and are using the VPN
+To access it:
+- Ensure you've been added by IT services
+- Are using the VPN
+- Have setup the SSH key on your client
