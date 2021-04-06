@@ -25,5 +25,6 @@ Any person joining the tech team will need to be given access to the various tec
 * GoogleDrive Team Drive for passwords
 * GoogleDrive Team Drive access for Photography Team Drive (those who should have manager access should be the TD, Editor, Deputy Editor, MUSE Editor, Deputy MUSE Editor, Photo Editor and Deputy Photo Editor)
 * JIRA
+* Facebook "Business" account (https://business.facebook.com/overview) - NOT just the Facebook Page Itself
 
 When the tech director changes it is important to transfer the ownership of university issues univ accounts to ensure they do not expire and require resetting by IT Services.
