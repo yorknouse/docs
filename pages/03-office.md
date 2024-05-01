@@ -3,7 +3,7 @@ title: The office
 layout: page
 ---
       
-The office is in Eric Milner Block A (next to James college but technically in Vanbrugh)
+The office is in Home Farm (HF/004).
 
 ## Hardware
 
@@ -28,16 +28,13 @@ We paid £688.91 each for them.
 
 | Hostname | Location | MAC Address |
 |---|---|---|
-| nousepc8.york.ac.uk | Left near door  | 04-D9-F5-F2-D6-10 | 
-| nousepc9.york.ac.uk | Left middle  | 04-D9-F5-F2-D8-2D | 
-| nousepc10.york.ac.uk | Left near window | 04-D9-F5-F2-D8-31 | 
-| nousepc11.york.ac.uk | Window left | 04-D9-F5-F2-D8-37 | 
-| nousepc12.york.ac.uk | Window right  | 04-D9-F5-F2-D8-15 |
+| nousepc8.york.ac.uk | Not in use   | 04-D9-F5-F2-D6-10 | 
+| nousepc9.york.ac.uk | Right hand side next to window desk | 04-D9-F5-F2-D8-2D | 
+| nousepc10.york.ac.uk | Right hand side facing windows | 04-D9-F5-F2-D8-31 | 
+| nousepc11.york.ac.uk | Left hand side next to window desk | 04-D9-F5-F2-D8-37 | 
+| nousepc12.york.ac.uk | Not in use  | 04-D9-F5-F2-D8-15 |
+| nousepc13.york.ac.uk | Left hand side facing windows | 00-23-81-54-83-E1 |
 
-
-The office network is connected through a HP switch located on the floor by the window.  It is connected to the campus network through the port labelled _G/A/069-05_.  The switch is owned, managed and looked after by IT Services and shoudn't be tampered with. If you need to connect anything, you can use sockets 1 to 8 (the block of 8 on the left-side). Port 9 is the uplink port to the rest of the network and port 10 should be left empty. The two other sockets (gbic ones) should also remain unused.
-
-PC8 is connected directly to the other network socket in the room, and doesn't go via the switch. 
 
 All 5 machines are registered in the IT Services landb (Mice and Men) and should be acquiring IP addresses through DHCP. In cases where machines are moved and fail to get leased a new IP this is often due to an issue with the multi-lan ports used by IT Services.  Often unplugging and replugging the switch is enough to get the problem machine working (even if it is not now connected to the switch due to how multi-ports are allocated and released).
 
