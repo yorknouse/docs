@@ -12,5 +12,21 @@ The website is currently functioning, but with several issues, including images 
 
 ## Old members
 The history of tech at Nouse follows:
-* will do
-
+* Chris Northwood
+* Mike Tomasello
+* Alex Muller
+* Ali Clark
+* Andrew Fairbairn
+* Ivaylo Hristakiev
+* Jonathan Frost
+* Andrew Ryan
+* Josh Goodwin
+* Tim Waterson
+* Owen Hurford
+* Toby Makins
+* Matt Carabine
+* Neel Chotai
+* James Bithell
+* Giuseppe Barillari
+* Omar Omar
+* Liam Burnand
